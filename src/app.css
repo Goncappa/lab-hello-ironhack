@@ -1,0 +1,45 @@
+/* body {
+  background-color: blue;
+} */
+
+/* #page {
+
+} */
+*{
+  margin: 0;
+}
+
+#part1 {
+  background-color: navy;
+  background-image: url('/images/react-logo.svg');
+  height: 500px;
+  color: white; 
+  /* margin: 20px;  */
+  padding: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  color: navy;
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#main1container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20%; 
+  margin-top: 100px;
+}
